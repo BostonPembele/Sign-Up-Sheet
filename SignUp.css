@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{padding: 0; margin: 0;}
+
+header{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+.container{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 5px rgb(200, 200, 200);
+}
+.con_left{
+    width: 50%;
+}
+.con_left img{
+    width: 99%;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.con_right{
+    width: 50%;
+}
+.blox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    width: 57%;
+    padding-left: 41%;
+}
+.blox h2{
+    font-family: "Kanit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    padding-top: 10%;
+}
+
+.inputgrup{
+    margin: 10% 10%;
+}
+
+.inputgrup .form-group{
+    margin-bottom: 10px;
+}
+
+.inputgrup .form-group label{
+    display: block;
+    margin-bottom: 5px;
+    font-family: "Kanit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.inputgrup .form-group input{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    border: 1px solid #d1d1d1;
+    outline: none;
+}
+
+.inputgrup button{
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #DBB15D;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: "Kanit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 700;
+}
+.inputgrup p{
+    text-align: center;
+    font-family: "Kanit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 25px;
+}
+.inputgrup a{
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #DBB15D;
+}
+.clon{
+    width: 100%;
+    margin-top: 8px;
+    display: flex;
+    justify-content: space-around;
+}
+.clon p{
+    font-family: "Kanit", sans-serif;
+    font-style: normal;
+    font-size: 14px;
+}
+
+.clon .chekbox{
+    display: flex;
+    gap: 5px;
+    font-family: "Kanit", sans-serif;
+    font-style: normal;
+    font-size: 15px;
+}
+#background-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    z-index: -1;
+    object-fit: cover;
+    width: 1%;
+}
